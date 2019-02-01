@@ -45,3 +45,22 @@ Total: 65.15
 1 imported box of chocolates: 11.85\
 Sales Taxes: 6.70\
 Total: 74.68
+
+# Development of the Exercise
+The development has been done in pyhton (3.7) being the language with which I work recently.
+There are three folders:
+* **data**: contains the data described in the exercise.
+* **module**: contains the software necessary for the execution of the exercise.
+* **test**: contains the test units (In this case only one focused on the right calculation of taxation).
+
+## To run the test unit
+```
+cd test
+py test_tax.py
+```
+
+## To print carts like described 
+```
+cd module
+py print_cart_list.py
+```
