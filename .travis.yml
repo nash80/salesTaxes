@@ -1,5 +1,8 @@
 language: python
 python: 3.6
 script:
+  - cd test
   - python test_tax.py
+  - cd ..
+  - cd module
   - python print_cart_list.py
