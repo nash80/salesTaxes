@@ -1,0 +1,11 @@
+{
+    "fix":{
+        "default": 10,
+        "books": 0,
+        "food": 0, 
+        "medical": 0
+    },
+    "imported":{
+        "default": 5
+    }
+}
